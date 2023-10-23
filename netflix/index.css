@@ -1,0 +1,106 @@
+body{
+    background-color: rgb(8, 4, 4);
+    overflow:visible;
+    user-select: none;
+    
+}
+.netflix-logo{
+    padding-left: 30px;
+}
+.b1{
+    width: 1000px;
+    width: 1500px;
+    margin-top: 10px;
+   
+}
+.pic1-des{
+    color: white;
+    position:relative;
+    bottom: 360px;
+    margin-left: 90px; 
+    
+}
+.play,.more{
+    border: none;
+    background-color: aliceblue;
+    color: black;
+    width: 57px;
+    height: 25px;
+    padding-left: 25px;
+    padding-top: 5px;
+    border-radius: 4px;
+    display: inline-block;
+    cursor: pointer;
+}
+.more{
+    width: 100px;
+    margin-left: 5px;
+    background-color: rgb(55, 54, 54);
+    color: white;
+}
+.genre{
+    color: rgb(96, 95, 95);
+    margin-top: 10px;
+}
+.cat{
+    color: white;
+    margin-top: 90px;
+    font-size: 25px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+    margin-left: 70px;
+
+}
+.NO{
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px ;
+    gap: 20px;
+    height: 390px;
+    overflow-x: scroll;
+    margin-left: 70px;
+    
+}
+.NO1,.NO2{
+    height: 300px;
+    width: 200px;
+    border: none;
+    border-radius: 10px;
+    
+}
+.NO1:hover ,.NO2:hover {
+    height: 330px;
+    width: 210px;
+    transition: .2s;
+}
+.MO1{
+    height: 140px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+}
+.MO1:hover {
+  height: 150px;
+   transform-origin: left;
+   transition: .4s;
+  
+   
+}
+.home-pic1{
+    display: grid;
+    grid-template-columns: max-content max-content max-content max-content max-content max-content;
+    overflow-x:scroll;
+}
+.Horror{
+    font-size: 25px;
+    color: white;
+    margin-left: 70px;
+    
+}
+.MO{
+    display: grid;
+    grid-template-columns: 270px 270px 270px 270px 270px 270px 270px 270px 270px 270px 270px 270px  ;
+    overflow-x: scroll;
+    height: 190px;
+    margin-left: 70px;
+  
+}
